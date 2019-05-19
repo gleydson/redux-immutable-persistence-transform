@@ -29,7 +29,7 @@ import reducers from "./ducks";
 const persistConfig = {
   key: "root",
   storage,
-  transforms: [ImmutablePersistenceTansform]
+  transforms: [ImmutablePersistenceTransform]
 };
 
 const persistedReducer = persistReducer(persistConfig, reducers);
