@@ -43,6 +43,7 @@ export { store, persistor };
 ## To Do
 
 - Create transform for [`immutable`](https://github.com/immutable-js/immutable-js) library
+- Add unit tests
 
 ## License
 
