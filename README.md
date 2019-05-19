@@ -1,6 +1,6 @@
-# Immutable Persistence Transform
+# Redux Immutable Persistence Transform
 
-Library that allows you to transform immutable data created with seamless-immutable for use with redux-persist
+Library that allows you to transform immutable data created with **seamless-immutable** for use with **redux-persist**
 
 ## Why?
 
@@ -40,7 +40,7 @@ export { store, persistor };
 
 ## License
 
-Distributed under the MIT license. See LICENSE for more information.
+Distributed under the MIT license. See `LICENSE` for more information.
 
 ## Contact
 
