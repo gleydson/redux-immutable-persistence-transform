@@ -2,6 +2,8 @@
 
 ## Why?
 
+## Installation
+
 ## How to use?
 
 ```javascript
@@ -30,7 +32,7 @@ export { store, persistor };
 
 ## License
 
-Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
+Distributed under the MIT license. See LICENSE for more information.
 
 ## Contact
 
