@@ -42,8 +42,10 @@ export { store, persistor };
 
 ## To Do
 
-- Create transform for [`immutable`](https://github.com/immutable-js/immutable-js) library
-- Add unit tests
+- [ ] Configure continuous integration with Travis
+- [ ] Create transform for [`immutable`](https://github.com/immutable-js/immutable-js) library
+- [ ] Add unit tests
+- [ ] Add sample project
 
 ## License
 
