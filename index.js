@@ -1,1 +1,3 @@
-export { default } from './src/ImmutablePersistenceTransform';
+import SeamLessImmutablePersistenceTransform from "./src/ImmutablePersistenceTransform";
+
+export { SeamLessImmutablePersistenceTransform };
