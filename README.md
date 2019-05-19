@@ -22,14 +22,14 @@ or
 import { createStore } from "redux";
 import { persistStore, persistReducer } from "redux-persist";
 import storage from "redux-persist/lib/storage";
-import ImmutablePersistenceTransform from "redux-immutable-persistence-transform";
+import { SeamLessImmutablePersistenceTransform } from "redux-immutable-persistence-transform";
 
 import reducers from "./ducks";
 
 const persistConfig = {
   key: "root",
   storage,
-  transforms: [ImmutablePersistenceTransform]
+  transforms: [SeamLessImmutablePersistenceTransform]
 };
 
 const persistedReducer = persistReducer(persistConfig, reducers);
