@@ -4,6 +4,12 @@
 
 ## Installation
 
+`yarn add redux-immutable-persistence-transform`
+
+or
+
+`npm i redux-immutable-persistence-transform`
+
 ## How to use?
 
 ```javascript
