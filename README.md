@@ -1,6 +1,6 @@
 # Redux Immutable Persistence Transform
 
-Library that allows you to transform immutable data created with seamless-immutable for use with redux-persist
+Library that allows you to transform immutable data created with **seamless-immutable** for use with **redux-persist**
 
 ## Why?
 
