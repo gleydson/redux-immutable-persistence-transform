@@ -40,6 +40,10 @@ const persistor = persistStore(store);
 export { store, persistor };
 ```
 
+## To Do
+
+- Create transform for [`immutable`](https://github.com/immutable-js/immutable-js) library
+
 ## License
 
 Distributed under the MIT license. See `LICENSE` for more information.
