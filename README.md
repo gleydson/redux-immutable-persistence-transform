@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.com/gleydson/ReduxImmutablePersistenceTransform.svg?branch=master)](https://travis-ci.com/gleydson/ReduxImmutablePersistenceTransform)
 [![npm version](https://badge.fury.io/js/redux-immutable-persistence-transform.svg)](https://badge.fury.io/js/redux-immutable-persistence-transform)
+![npm](https://img.shields.io/npm/dm/redux-immutable-persistence-transform.svg)
 
 # Redux Immutable Persistence Transform
 
