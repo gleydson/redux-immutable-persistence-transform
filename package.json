@@ -1,13 +1,26 @@
 {
   "name": "redux-immutable-persistence-transform",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Library that allows you to transform immutable data created with seamless-immutable for use with redux-persist",
   "main": "index.js",
-  "repository": "git@github.com:gleydson/ImmutablePersistenceTransform.git",
+  "repository": "https://github.com/gleydson/redux-immutable-persistence-transform",
   "author": "Gleydson Rodrigues <gleydsonsr@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "ramda": "^0.26.1",
     "seamless-immutable": "^7.1.4"
+  },
+  "keywords": [
+    "redux",
+    "redux-persist",
+    "transforms",
+    "immutable",
+    "seamless-immutable",
+    "react",
+    "react-native",
+    "parse"
+  ],
+  "bugs": {
+    "url": "https://github.com/gleydson/redux-immutable-persistence-transform/issues"
   }
 }
