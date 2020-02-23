@@ -1,6 +1,6 @@
 {
   "name": "redux-immutable-persistence-transform",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Library that allows you to transform immutable data created with seamless-immutable for use with redux-persist",
   "main": "index.js",
   "repository": "https://github.com/gleydson/redux-immutable-persistence-transform",

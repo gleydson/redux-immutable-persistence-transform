@@ -1,5 +1,5 @@
 [![npm version](https://badge.fury.io/js/redux-immutable-persistence-transform.svg)](https://badge.fury.io/js/redux-immutable-persistence-transform)
-![npm](https://img.shields.io/npm/dm/redux-immutable-persistence-transform.svg)
+![npm](https://img.shields.io/npm/dy/redux-immutable-persistence-transform.svg)
 
 # Redux Immutable Persistence Transform
 
@@ -22,15 +22,15 @@ or
 ```javascript
 import { createStore } from "redux";
 import { persistStore, persistReducer } from "redux-persist";
-import storage from "redux-persist/lib/storage";
-import { SeamLessImmutablePersistenceTransform } from "redux-immutable-persistence-transform";
+import AsyncStorage from "@react-native-community/async-storage";
+import SeamlessImmutablePersistenceTransform from "redux-immutable-persistence-transform";
 
 import reducers from "./ducks";
 
 const persistConfig = {
   key: "root",
-  storage,
-  transforms: [SeamLessImmutablePersistenceTransform]
+  storage: AsyncStorage,
+  transforms: [SeamlessImmutablePersistenceTransform]
 };
 
 const persistedReducer = persistReducer(persistConfig, reducers);
@@ -40,13 +40,6 @@ const persistor = persistStore(store);
 
 export { store, persistor };
 ```
-
-## To Do
-
-- [ ] Configure continuous integration with Travis
-- [ ] Create transform for [`immutable`](https://github.com/immutable-js/immutable-js) library
-- [ ] Add unit tests
-- [ ] Add sample project
 
 ## License
 
